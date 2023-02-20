@@ -1,0 +1,68 @@
+.nav-link a {
+  list-style: none;
+  padding: 5px;
+  color: #000;
+}
+
+.nav-item {
+  text-transform: uppercase;
+}
+.nav-item::after {
+  content: "";
+}
+.nav-item-hover {
+  position: relative;
+}
+.nav-item-hover:hover ul {
+  visibility: visible;
+  background-color: #000;
+  transition: all 0.5s ease;
+  top: 30px;
+}
+.nav-item-menu {
+  top: 100px;
+  position: absolute;
+  visibility: hidden;
+  width: 160px;
+  padding: 5px;
+}
+.nav-item-list {
+  color: #fff !important;
+  text-transform: capitalize;
+}
+
+.header-baner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  background-origin: border-box;
+  background-position: top center;
+}
+
+h1 {
+  margin: 0;
+  color: #111111;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: #666666;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 0 15px 0;
+}
+
+.set-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.shop-now {
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */
