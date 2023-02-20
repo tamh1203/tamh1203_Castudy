@@ -9,10 +9,7 @@
 }
  .nav-item{
   text-transform: uppercase;
-  &::after{
-    content: "";
-    
-  }
+  font-weight: 500;
   &-hover{
     position: relative;
     &:hover ul
@@ -65,5 +62,22 @@
     color: #000;
     text-transform: uppercase;
     text-decoration: none;
+    font-weight: bold;
   }
-   
+  .navbar-fixed {
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    z-index: 100;
+    color: red;
+  }
+  body{
+    height: 100vh;
+  }
+  .fa-star{
+    color: #e3c01c;
+  }
+  img{
+    padding: 0;
+    margin: 0;
+  }
